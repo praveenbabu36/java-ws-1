@@ -9,7 +9,7 @@ public class DataType_Ex_8 {
 
             Numeric : byte, short, int, long
 
-            Floating : float, double
+            Precision : float, double
 
             Character :  char
 
@@ -30,8 +30,34 @@ public class DataType_Ex_8 {
         long minLong = -9223372036854775808L;
         long maxLong = 9223372036854775807L;
 
-        System.out.println(minLong + " " + maxLong);
 
+        // Precision - float (32 bit) / double (64 bit)
+
+        /* Float - Any number with decimal is considered as double
+                            unless char 'f' is specified at end of number.
+         */
+        float myFloat1 = 10.233423F;
+
+        System.out.println(myFloat1);
+
+
+        // Double
+        double myDouble1 = 10.234312;
+
+        System.out.println(myDouble1);
+
+
+        // Math Operations when using the diff data type
+        int resInt = 10 / 3;
+
+        float resFlt = 10.0f / 3.0f;
+
+        double resDbl = 10.0d / 3.0d;
+
+
+        System.out.println( "Int Result: " + resInt );
+        System.out.println( "Float Result: " + resFlt );
+        System.out.println( "Double Result: " + resDbl );
 
     }
 
