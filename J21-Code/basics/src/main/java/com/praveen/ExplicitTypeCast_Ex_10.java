@@ -1,6 +1,6 @@
 package com.praveen;
 
-public class ExplicitTypeCast_Ex_9 {
+public class ExplicitTypeCast_Ex_10 {
 
     public static void main(String[] args) {
 
